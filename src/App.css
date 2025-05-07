@@ -1,0 +1,5 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* lo usamos para que todo lo que este en la app no se rompa*/
+}

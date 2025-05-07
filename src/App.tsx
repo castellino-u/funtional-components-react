@@ -1,3 +1,7 @@
+import { Header } from "./components/ui/Header/Header"
+import './App.css'
+import { CreditCard } from "./components/ui/Header/CreditCard/CreditCard"
+import { LatestTransactions } from "./components/ui/Header/LatestTransactions/LatestTransactions"
 
 
 function App() {
@@ -5,7 +9,9 @@ function App() {
 
   return (
     <div>
-    {/* Acá empieza la app. */}
+      <Header/>
+      <CreditCard/>
+      <LatestTransactions/>
     </div>
   )
 }

@@ -1,0 +1,9 @@
+1- Trabajar por objetivos:
+    1- mirar el figma
+    2-dividir bien el trabajo, componetizarlo, no volverse loco
+
+
+2-jerarquizar las carpetas, ordenarlas
+    1-components:
+        1-ui: los componentes visibles(que despues exportamos a screens para que se vean)
+        2-screens: son las pantallas que va a tener la app(que van tener los componentes adentro)

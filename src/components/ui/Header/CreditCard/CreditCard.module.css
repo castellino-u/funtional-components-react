@@ -1,0 +1,48 @@
+.card{
+    width: 400px;
+    border: 1px solid;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow: 20px 20px rgb(236, 188, 238);
+    background-image: linear-gradient(rgb(240, 165, 27), rgb(219, 51, 183));
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardNumber{
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+
+}
+.cardTop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.cardBottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;  /* distribuye los elementos uniformemente en todo el espacio*/
+
+}
+.cardName{
+    color: white;
+    display: flex;
+    justify-content: end;
+
+}
+
+.cardDate{
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
