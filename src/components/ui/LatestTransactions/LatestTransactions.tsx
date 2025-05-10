@@ -1,7 +1,8 @@
+import useModalStore from '../../../store/modalStore';
 import style from './LatestTransactions.module.css'
 
-
 export const LatestTransactions = () => {
+    const {setIsVisible} = useModalStore();
     // lógica antes del return
     const upcomingPayments = [
     {
@@ -36,7 +37,7 @@ export const LatestTransactions = () => {
             {/* //mapeo del array */}
             {
                 upcomingPayments.map((payment)=>(
-                    <div className={style.card}>
+                    <div className={style.card} onClick={()=> setIsVisible()}>
                         <div className={style.date}>
                             <p>{payment.date}</p>
                         </div>

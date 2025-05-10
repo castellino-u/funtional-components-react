@@ -1,7 +1,7 @@
-import { CreditCard } from '../../ui2/CreditCard/CreditCard';
-import { Header } from '../../ui2/Header/Header';
-import { LatestTransactions } from '../../ui2/LatestTransactions/LatestTransactions';
-import style from './LatestTreansactionsScreen.module.css'
+import { CreditCard } from '../../ui/CreditCard/CreditCard';
+import { Header } from '../../ui/Header/Header';
+import { LatestTransactions } from '../../ui/LatestTransactions/LatestTransactions';
+// import style from './LatestTreansactionsScreen.module.css'
 
 export const LatestTreansactionsScreen = () => {
     return (
@@ -9,6 +9,7 @@ export const LatestTreansactionsScreen = () => {
             <Header/>
             <CreditCard/>
             <LatestTransactions/>
+            
         </div>
     );
 };

@@ -1,0 +1,26 @@
+.modal{
+    width: 60%;
+    height: 50vh;
+    position: absolute;
+    background-color: rgb(231, 118, 203);
+
+    /* Cuando hacemos un modal, siempre vamos a poner esta config para que quede arriba de todo */
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    /* hasta acá es lo principal */
+
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+
+}
+
+.modalButton{
+    padding: 10px;
+    background-color: none; 
+    margin-top: 10px;   
+    margin-right: 10px;
+}
