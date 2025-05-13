@@ -2,7 +2,7 @@
     width: 60%;
     height: 50vh;
     position: absolute;
-    background-color: rgb(231, 118, 203);
+    background-color: rgb(202, 202, 161);
 
     /* Cuando hacemos un modal, siempre vamos a poner esta config para que quede arriba de todo */
 
@@ -13,8 +13,8 @@
     /* hasta acá es lo principal */
 
     display: flex;
-    justify-content: end;
-    align-items: flex-start;
+    flex-direction: column;
+    max-width: 400px;
 
 }
 
@@ -23,4 +23,21 @@
     background-color: none; 
     margin-top: 10px;   
     margin-right: 10px;
+    width: 10%;
+    position: absolute;
+    right: 0;
 }
+.modalPaymentText{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto; 
+    margin-top: 50px;
+    gap: 15px;
+    justify-content: space-around;
+    font-size: larger;
+    align-items: flex-start;
+
+}
+

@@ -24,16 +24,23 @@
     display: flex;
     gap: 3px;
     padding: 5px;
-}
 
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 500ms ease all;
+
+}
 
 .cardText{
     /* border: 1px solid; */
     width: 100%;
-    background-color: rgb(225, 184, 248);
+    background-color: rgb(177, 173, 173);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border-radius: 5px;
+
 }
 
 .date{
